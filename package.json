@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-pgb-ios-localize-app-name",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Allows localization of IOS App Name ('Bundle Display Name' or CFBundleDisplayName) when compiling PhoneGap/Cordova apps using build.phonegap.com (PhoneGap Build)",
   "cordova": {
     "id": "cordova-plugin-pgb-ios-localize-app-name",
