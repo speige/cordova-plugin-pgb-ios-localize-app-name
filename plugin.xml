@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-pgb-ios-localize-app-name"
-    version="1.0.4">
+    version="1.0.5">
 
     <name>Cordova Plugin PGB iOS Localize App Name</name>
 	<description>Allows localization of IOS App Name ("Bundle Display Name" or CFBundleDisplayName) when compiling PhoneGap/Cordova apps using build.phonegap.com (PhoneGap Build)</description>
@@ -72,8 +72,8 @@ SOFTWARE.
 			<string name="CFBundleDisplayName">$DE_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
-        <source-file src="locales/el.lproj/InfoPlist.xml" target-dir="el.lproj/" />
-		<config-file target="el.lproj/InfoPlist.xml" parent="/*">
+        <source-file src="locales/el.lproj/InfoPlist.strings" target-dir="el.lproj/" />
+		<config-file target="el.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$EL_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
@@ -92,13 +92,13 @@ SOFTWARE.
 			<string name="CFBundleDisplayName">$FI_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
-        <source-file src="locales/fr.lproj/InfoPlist.xml" target-dir="fr.lproj" />
-		<config-file target="fr.lproj/InfoPlist.xml" parent="/*">
+        <source-file src="locales/fr.lproj/InfoPlist.strings" target-dir="fr.lproj" />
+		<config-file target="fr.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$FR_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
-        <source-file src="locales/id.lproj/Info.plist" target-dir="id.lproj" />
-		<config-file target="id.lproj/Info.plist" parent="/*">
+        <source-file src="locales/id.lproj/InfoPlist.strings" target-dir="id.lproj" />
+		<config-file target="id.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$ID_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
@@ -112,12 +112,12 @@ SOFTWARE.
 		</config-file>
         <resource-file src="locales/ja.lproj" />
 
-		<config-file target="locales/ko.lproj/InfoPlist.xml" parent="/*">
+		<config-file target="locales/ko.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$KO_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
         <resource-file src="locales/ko.lproj" />
 
-		<config-file target="locales/ms.lproj/Info.plist" parent="/*">
+		<config-file target="locales/ms.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$MS_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
         <resource-file src="locales/ms.lproj" />
