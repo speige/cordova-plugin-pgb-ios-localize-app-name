@@ -1,3 +1,5 @@
+# NOTE: This is **NOT** working yet!!!
+
 # cordova-plugin-pgb-ios-localize-app-name
 
 ## Description

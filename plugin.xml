@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-pgb-ios-localize-app-name"
-    version="1.0.7">
+    version="1.0.8">
 
     <name>Cordova Plugin PGB iOS Localize App Name</name>
 	<description>Allows localization of IOS App Name ("Bundle Display Name" or CFBundleDisplayName) when compiling PhoneGap/Cordova apps using build.phonegap.com (PhoneGap Build)</description>
@@ -62,6 +62,7 @@ SOFTWARE.
 		<preference name="ZH_CFBUNDLEDISPLAYNAME" />
 		<preference name="ZH_HANT_CFBUNDLEDISPLAYNAME" />
 		
+		<!--
         <source-file src="locales/da.lproj/InfoPlist.strings" target-dir="da.lproj/" />
 		<config-file target="da.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$DA_CFBUNDLEDISPLAYNAME</string>
@@ -76,7 +77,8 @@ SOFTWARE.
 			<string name="CFBundleDisplayName">$IT_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
         <resource-file src="locales/it.lproj" />
-
+		-->
+		
 		<!--
         <source-file src="locales/de.lproj/InfoPlist.strings" target-dir="de.lproj/" />
 		<config-file target="de.lproj/InfoPlist.strings" parent="/*">
