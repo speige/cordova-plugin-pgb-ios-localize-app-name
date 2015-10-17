@@ -102,7 +102,7 @@ Modify your config.xml to include the following tags:
 For anyone who is curious how this works behind the scenes (or if you're a Cordova CLI user wanting to do this directly in XCode)
 
 The app's main Info.plist (binary XML file) needs the "Application has localized display name" LSHasLocalizedDisplayName setting set to "Yes" ( `<true/>` in XML )
-If you want to view your Info.plist file in a normal text editor you can use the plutil executable (in iTunes install directory) to decode from binary xml to xml.
+If you want to view your Info.plist file in a normal text editor you can use the plutil executable (in C:\Program Files (x86)\Common Files\Apple\Apple Application Support  if iTunes is installed) to decode from binary xml to xml.
 
 Your .ipa file also needs a set of files titled [languagecode].lproj/InfoPlist.strings next to the www folder (not inside it). These files need to specify values for the CFBundleDisplayName & CFBundleName variables.
 For example, if you unzip your .ipa file, you should see the following (assuming english & spanish localized app name):

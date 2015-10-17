@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-pgb-ios-localize-app-name"
-    version="1.0.0">
+    version="1.0.2">
 
     <name>Cordova Plugin PGB iOS Localize App Name</name>
 	<description>Allows localization of IOS App Name ("Bundle Display Name" or CFBundleDisplayName) when compiling PhoneGap/Cordova apps using build.phonegap.com (PhoneGap Build)</description>
@@ -40,136 +40,136 @@ SOFTWARE.
 
     <!-- ios -->
     <platform name="ios">
-		<config-file target="locales/da.lproj/InfoPlist.strings" parent="/*">
+		<preference name="DA_CFBUNDLEDISPLAYNAME" />
+		<preference name="DE_CFBUNDLEDISPLAYNAME" />
+		<preference name="EL_CFBUNDLEDISPLAYNAME" />
+		<preference name="EN_CFBUNDLEDISPLAYNAME" />
+		<preference name="ES_CFBUNDLEDISPLAYNAME" />
+		<preference name="FI_CFBUNDLEDISPLAYNAME" />
+		<preference name="FR_CFBUNDLEDISPLAYNAME" />
+		<preference name="ID_CFBUNDLEDISPLAYNAME" />
+		<preference name="IT_CFBUNDLEDISPLAYNAME" />
+		<preference name="JA_CFBUNDLEDISPLAYNAME" />
+		<preference name="KO_CFBUNDLEDISPLAYNAME" />
+		<preference name="MS_CFBUNDLEDISPLAYNAME" />
+		<preference name="NB_CFBUNDLEDISPLAYNAME" />
+		<preference name="NL_CFBUNDLEDISPLAYNAME" />
+		<preference name="PT_CFBUNDLEDISPLAYNAME" />
+		<preference name="RU_CFBUNDLEDISPLAYNAME" />
+		<preference name="SV_CFBUNDLEDISPLAYNAME" />
+		<preference name="TH_CFBUNDLEDISPLAYNAME" />
+		<preference name="TR_CFBUNDLEDISPLAYNAME" />
+		<preference name="ZH_CFBUNDLEDISPLAYNAME" />
+		<preference name="ZH_HANT_CFBUNDLEDISPLAYNAME" />
+		
+        <source-file src="locales/da.lproj/InfoPlist.strings" target-dir="da.lproj/" />
+		<config-file target="da.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$DA_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$DA_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/da.lproj" />
 
-		<config-file target="locales/de.lproj/InfoPlist.strings" parent="/*">
+        <source-file src="locales/de.lproj/InfoPlist.strings" target-dir="de.lproj/" />
+		<config-file target="de.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$DE_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$DE_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/de.lproj" />
 
-		<config-file target="locales/el.lproj/InfoPlist.strings" parent="/*">
+        <source-file src="locales/el.lproj/InfoPlist.xml" target-dir="el.lproj/" />
+		<config-file target="el.lproj/InfoPlist.xml" parent="/*">
 			<string name="CFBundleDisplayName">$EL_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$EL_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/el.lproj" />
 
-		<config-file target="locales/en.lproj/InfoPlist.strings" parent="/*">
+        <source-file src="locales/en.lproj/Info.plist" target-dir="en.lproj/" />
+		<config-file target="en.lproj/Info.plist" parent="/*">
 			<string name="CFBundleDisplayName">$EN_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$EN_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/en.lproj" />
 
-		<config-file target="locales/es.lproj/InfoPlist.strings" parent="/*">
+        <source-file src="locales/es.lproj/InfoPlist.strings" target-dir="es.lproj" />
+		<config-file target="es.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$ES_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$ES_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/es.lproj" />
 
-		<config-file target="locales/fi.lproj/InfoPlist.strings" parent="/*">
+        <source-file src="locales/fi.lproj/InfoPlist.strings" target-dir="fi.lproj" />
+		<config-file target="fi.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$FI_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$FI_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/fi.lproj" />
 
-		<config-file target="locales/fr.lproj/InfoPlist.strings" parent="/*">
+        <source-file src="locales/fr.lproj/InfoPlist.xml" target-dir="fr.lproj" />
+		<config-file target="fr.lproj/InfoPlist.xml" parent="/*">
 			<string name="CFBundleDisplayName">$FR_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$FR_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/fr.lproj" />
 
-		<config-file target="locales/id.lproj/InfoPlist.strings" parent="/*">
+        <source-file src="locales/id.lproj/Info.plist" target-dir="id.lproj" />
+		<config-file target="id.lproj/Info.plist" parent="/*">
 			<string name="CFBundleDisplayName">$ID_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$ID_CFBUNDLENAME</string>
 		</config-file>
-        <resource-file src="locales/id.lproj" />
 
 		<config-file target="locales/it.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$IT_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$IT_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/it.lproj" />
 
 		<config-file target="locales/ja.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$JA_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$JA_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/ja.lproj" />
 
-		<config-file target="locales/ko.lproj/InfoPlist.strings" parent="/*">
+		<config-file target="locales/ko.lproj/InfoPlist.xml" parent="/*">
 			<string name="CFBundleDisplayName">$KO_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$KO_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/ko.lproj" />
 
-		<config-file target="locales/ms.lproj/InfoPlist.strings" parent="/*">
+		<config-file target="locales/ms.lproj/Info.plist" parent="/*">
 			<string name="CFBundleDisplayName">$MS_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$MS_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/ms.lproj" />
 
 		<config-file target="locales/nb.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$NB_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$NB_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/nb.lproj" />
 
 		<config-file target="locales/nl.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$NL_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$NL_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/nl.lproj" />
 
 		<config-file target="locales/pt.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$PT_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$PT_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/pt.lproj" />
 
 		<config-file target="locales/ru.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$RU_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$RU_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/ru.lproj" />
 
 		<config-file target="locales/sv.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$SV_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$SV_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/sv.lproj" />
 
 		<config-file target="locales/th.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$TH_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$TH_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/th.lproj" />
 		
 		<config-file target="locales/tr.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$TR_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$TR_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/tr.lproj" />
 
 		<config-file target="locales/vi.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$VI_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$VI_CFBUNDLENAME</string>
 		</config-file>
         <resource-file src="locales/vi.lproj" />
 
-		<config-file target="locales/zh-hant.lproj/InfoPlist.strings" parent="/*">
-			<string name="CFBundleDisplayName">$ZH_HANT_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$ZH_HANT_CFBUNDLENAME</string>
-		</config-file>
-        <resource-file src="locales/zh-hant.lproj" />
-
 		<config-file target="locales/zh.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$ZH_CFBUNDLEDISPLAYNAME</string>
-			<string name="CFBundleName">$ZH_CFBUNDLENAME</string>
 		</config-file>
+
         <resource-file src="locales/zh.lproj" />
+		<config-file target="locales/zh-hant.lproj/InfoPlist.strings" parent="/*">
+			<string name="CFBundleDisplayName">$ZH_HANT_CFBUNDLEDISPLAYNAME</string>
+		</config-file>
+        <resource-file src="locales/zh-hant.lproj" />
     </platform>
 </plugin>
