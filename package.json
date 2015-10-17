@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-pgb-ios-localize-app-name",
+  "version": "1.0.0",
+  "description": "Allows localization of IOS App Name ("Bundle Display Name" or CFBundleDisplayName) when compiling PhoneGap/Cordova apps using build.phonegap.com (PhoneGap Build)",
+  "cordova": {
+    "id": "cordova-plugin-pgb-ios-localize-app-name",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/speige/cordova-plugin-pgb-ios-localize-app-name.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova",
+    "phonegap",
+    "ios",
+    "appstore",
+	"localization",
+	"Bundle Display Name",
+	"CFBundleDisplayName",
+	"CFBundleName",
+	"CFBundleLocalizations",
+	"LSHasLocalizedDisplayName",
+	"Application has localized display name",
+	"Info.plist",
+	"InfoPlist.strings",
+	".lproj"
+  ],
+  "author": "Devin Garner <DevinGarner@GMail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/speige/cordova-plugin-pgb-ios-localize-app-name/issues"
+  },
+  "homepage": "https://github.com/speige/cordova-plugin-pgb-ios-localize-app-name"
+}
