@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-pgb-ios-localize-app-name"
-    version="1.0.6">
+    version="1.0.7">
 
     <name>Cordova Plugin PGB iOS Localize App Name</name>
 	<description>Allows localization of IOS App Name ("Bundle Display Name" or CFBundleDisplayName) when compiling PhoneGap/Cordova apps using build.phonegap.com (PhoneGap Build)</description>
@@ -67,6 +67,17 @@ SOFTWARE.
 			<string name="CFBundleDisplayName">$DA_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
+        <source-file src="locales/es.lproj/InfoPlist.strings" target-dir="es.lproj" />
+		<config-file target="es.lproj/InfoPlist.strings" parent="/*">
+			<string name="CFBundleDisplayName">$ES_CFBUNDLEDISPLAYNAME</string>
+		</config-file>
+
+		<config-file target="locales/it.lproj/InfoPlist.strings" parent="/*">
+			<string name="CFBundleDisplayName">$IT_CFBUNDLEDISPLAYNAME</string>
+		</config-file>
+        <resource-file src="locales/it.lproj" />
+
+		<!--
         <source-file src="locales/de.lproj/InfoPlist.strings" target-dir="de.lproj/" />
 		<config-file target="de.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$DE_CFBUNDLEDISPLAYNAME</string>
@@ -80,11 +91,6 @@ SOFTWARE.
         <source-file src="locales/en.lproj/InfoPlist.strings" target-dir="en.lproj/" />
 		<config-file target="en.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$EN_CFBUNDLEDISPLAYNAME</string>
-		</config-file>
-
-        <source-file src="locales/es.lproj/InfoPlist.strings" target-dir="es.lproj" />
-		<config-file target="es.lproj/InfoPlist.strings" parent="/*">
-			<string name="CFBundleDisplayName">$ES_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
         <source-file src="locales/fi.lproj/InfoPlist.strings" target-dir="fi.lproj" />
@@ -101,11 +107,6 @@ SOFTWARE.
 		<config-file target="id.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$ID_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
-
-		<config-file target="locales/it.lproj/InfoPlist.strings" parent="/*">
-			<string name="CFBundleDisplayName">$IT_CFBUNDLEDISPLAYNAME</string>
-		</config-file>
-        <resource-file src="locales/it.lproj" />
 
 		<config-file target="locales/ja.lproj/InfoPlist.strings" parent="/*">
 			<string name="CFBundleDisplayName">$JA_CFBUNDLEDISPLAYNAME</string>
@@ -171,5 +172,6 @@ SOFTWARE.
 			<string name="CFBundleDisplayName">$ZH_HANT_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
         <resource-file src="locales/zh-hant.lproj" />
+		-->
     </platform>
 </plugin>
