@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-pgb-ios-localize-app-name"
-    version="1.0.10">
+    version="1.0.11">
 
     <name>Cordova Plugin PGB iOS Localize App Name</name>
 	<description>Allows localization of IOS App Name ("Bundle Display Name" or CFBundleDisplayName) when compiling PhoneGap/Cordova apps using build.phonegap.com (PhoneGap Build)</description>
@@ -63,9 +63,9 @@ SOFTWARE.
 		<preference name="ZH_HANT_CFBUNDLEDISPLAYNAME" />
 		
 		<!--
-        <source-file src="locales/da.lproj/InfoPlist.strings" target-dir="da.lproj/" />
-		<config-file target="da.lproj/InfoPlist.strings" parent="/*">
-			<string name="CFBundleDisplayName">$DA_CFBUNDLEDISPLAYNAME</string>
+        <source-file src="locales/es.lproj/InfoPlist.strings" target-dir="es.lproj" />
+		<config-file target="es.lproj/InfoPlist.strings" parent="/*">
+			<string name="CFBundleDisplayName">$ES_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
 
 		<config-file target="locales/it.lproj/InfoPlist.strings" parent="/*">
@@ -73,12 +73,12 @@ SOFTWARE.
 		</config-file>
         <resource-file src="locales/it.lproj" />
 		-->
-
-        <source-file src="locales/es.lproj/InfoPlist.strings" target-dir="es.lproj" />
-		<config-file target="es.lproj/InfoPlist.strings" parent="/*">
-			<string name="CFBundleDisplayName">$ES_CFBUNDLEDISPLAYNAME</string>
+	
+        <source-file src="locales/da.lproj/InfoPlist.strings" target-dir="da.lproj/" />
+		<config-file target="da.lproj/InfoPlist.strings" parent="/*">
+			<string name="CFBundleDisplayName">$DA_CFBUNDLEDISPLAYNAME</string>
 		</config-file>
-		
+
 		<!--
         <source-file src="locales/de.lproj/InfoPlist.strings" target-dir="de.lproj/" />
 		<config-file target="de.lproj/InfoPlist.strings" parent="/*">
